@@ -7,12 +7,13 @@
 //
 
 import UIKit
+import WebKit
 
 class SignUpViewController: UIViewController {
 
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
 
@@ -21,12 +22,6 @@ class SignUpViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     var origInfo : MainDisplay?
-    
-    
-    
-
-    
-    
     
     @IBOutlet weak var fNameField: UITextField!
     
@@ -37,17 +32,13 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var sUpPass: UITextField!
     
     
-    @IBAction func sUpButton(sender: AnyObject) {
-        origInfo?.userFirst = fNameField.text
-        origInfo?.userLast = lNameField.text
-        origInfo?.userEmail = emailField.text
-        origInfo?.userPassword = sUpPass.text
+    @IBOutlet weak var label: UITextView!
+    @IBAction func test(sender: AnyObject) {
+        label.text = fNameField.text + " " + lNameField.text + " " + "\n" + emailField.text + " " + "\n" + sUpPass.text
+        
     }
-    
-    
-    
-    
-    
+
+
 
     /*
     // MARK: - Navigation
