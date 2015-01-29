@@ -12,9 +12,6 @@
 		3A0492E61A72C8A300DF88EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0492E51A72C8A300DF88EB /* Images.xcassets */; };
 		3A0492E91A72C8A300DF88EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A0492E71A72C8A300DF88EB /* LaunchScreen.xib */; };
 		3A0492F51A72C8A300DF88EB /* _Scape_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0492F41A72C8A300DF88EB /* _Scape_AppTests.swift */; };
-		3A2D8DD51A76289100B83C9C /* webViewSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2D8DD41A76289100B83C9C /* webViewSignUp.swift */; };
-		3A367E051A73529300EB85D4 /* webViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A367E041A73529300EB85D4 /* webViewViewController.swift */; };
-		3AD46FD51A73205700C3824E /* MainDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD46FD41A73205700C3824E /* MainDisplay.swift */; };
 		3AD46FD71A73219400C3824E /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD46FD61A73219400C3824E /* LogInViewController.swift */; };
 		3AD46FD91A7321A200C3824E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD46FD81A7321A200C3824E /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
@@ -39,9 +36,6 @@
 		3A0492EE1A72C8A300DF88EB /* 3ScapeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3ScapeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A0492F31A72C8A300DF88EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A0492F41A72C8A300DF88EB /* _Scape_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Scape_AppTests.swift; sourceTree = "<group>"; };
-		3A2D8DD41A76289100B83C9C /* webViewSignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = webViewSignUp.swift; sourceTree = "<group>"; };
-		3A367E041A73529300EB85D4 /* webViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = webViewViewController.swift; sourceTree = "<group>"; };
-		3AD46FD41A73205700C3824E /* MainDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainDisplay.swift; sourceTree = "<group>"; };
 		3AD46FD61A73219400C3824E /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		3AD46FD81A7321A200C3824E /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,9 +83,6 @@
 				3A0492E21A72C8A300DF88EB /* Main.storyboard */,
 				3AD46FD61A73219400C3824E /* LogInViewController.swift */,
 				3AD46FD81A7321A200C3824E /* SignUpViewController.swift */,
-				3A367E041A73529300EB85D4 /* webViewViewController.swift */,
-				3A2D8DD41A76289100B83C9C /* webViewSignUp.swift */,
-				3AD46FD41A73205700C3824E /* MainDisplay.swift */,
 				3A0492E51A72C8A300DF88EB /* Images.xcassets */,
 				3A0492E71A72C8A300DF88EB /* LaunchScreen.xib */,
 				3A0492DC1A72C8A300DF88EB /* Supporting Files */,
@@ -226,9 +217,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A0492DF1A72C8A300DF88EB /* AppDelegate.swift in Sources */,
-				3A2D8DD51A76289100B83C9C /* webViewSignUp.swift in Sources */,
-				3AD46FD51A73205700C3824E /* MainDisplay.swift in Sources */,
-				3A367E051A73529300EB85D4 /* webViewViewController.swift in Sources */,
 				3AD46FD91A7321A200C3824E /* SignUpViewController.swift in Sources */,
 				3AD46FD71A73219400C3824E /* LogInViewController.swift in Sources */,
 			);
