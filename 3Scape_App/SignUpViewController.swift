@@ -13,12 +13,14 @@ class SignUpViewController: UIViewController {
 
     @IBOutlet weak var signUp: UIWebView!
 
+
     override func viewDidLoad() {
         super.viewDidLoad()
         super.viewDidLoad()
         let url = NSURL(string: "http://www.3scape.me/login")
         let request = NSURLRequest(URL: url!)
         signUp.loadRequest(request)
+        signUp.scalesPageToFit = true
         // Do any additional setup after loading the view.
     }
 
