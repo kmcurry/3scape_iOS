@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3A0492D81A72C8A300DF88EB"
-               BuildableName = "3Scape_App.app"
-               BlueprintName = "3Scape_App"
-               ReferencedContainer = "container:3Scape_App.xcodeproj">
+               BuildableName = "3Scape.app"
+               BlueprintName = "3Scape"
+               ReferencedContainer = "container:3Scape.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3A0492ED1A72C8A300DF88EB"
-               BuildableName = "3Scape_AppTests.xctest"
-               BlueprintName = "3Scape_AppTests"
-               ReferencedContainer = "container:3Scape_App.xcodeproj">
+               BuildableName = "3ScapeTests.xctest"
+               BlueprintName = "3ScapeTests"
+               ReferencedContainer = "container:3Scape.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3A0492ED1A72C8A300DF88EB"
-               BuildableName = "3Scape_AppTests.xctest"
-               BlueprintName = "3Scape_AppTests"
-               ReferencedContainer = "container:3Scape_App.xcodeproj">
+               BuildableName = "3ScapeTests.xctest"
+               BlueprintName = "3ScapeTests"
+               ReferencedContainer = "container:3Scape.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3A0492D81A72C8A300DF88EB"
-            BuildableName = "3Scape_App.app"
-            BlueprintName = "3Scape_App"
-            ReferencedContainer = "container:3Scape_App.xcodeproj">
+            BuildableName = "3Scape.app"
+            BlueprintName = "3Scape"
+            ReferencedContainer = "container:3Scape.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3A0492D81A72C8A300DF88EB"
-            BuildableName = "3Scape_App.app"
-            BlueprintName = "3Scape_App"
-            ReferencedContainer = "container:3Scape_App.xcodeproj">
+            BuildableName = "3Scape.app"
+            BlueprintName = "3Scape"
+            ReferencedContainer = "container:3Scape.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3A0492D81A72C8A300DF88EB"
-            BuildableName = "3Scape_App.app"
-            BlueprintName = "3Scape_App"
-            ReferencedContainer = "container:3Scape_App.xcodeproj">
+            BuildableName = "3Scape.app"
+            BlueprintName = "3Scape"
+            ReferencedContainer = "container:3Scape.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
