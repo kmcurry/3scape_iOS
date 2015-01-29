@@ -43,6 +43,7 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="dy7-iB-NdU" firstAttribute="top" secondItem="bXv-sX-3Ay" secondAttribute="bottom" constant="8" symbolic="YES" id="Fco-nI-QWy"/>
                             <constraint firstItem="dy7-iB-NdU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IoU-mD-i9P"/>
@@ -73,6 +74,10 @@
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="En0-d2-U9L">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="mD5-1t-9iW" appends="YES" id="htm-8x-lTd"/>
+                                </connections>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -88,6 +93,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xWU-26-Rrm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pinchGestureRecognizer id="mD5-1t-9iW"/>
             </objects>
             <point key="canvasLocation" x="2043" y="508"/>
         </scene>
@@ -122,7 +128,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yom-lH-ToV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2050" y="1204"/>
+            <point key="canvasLocation" x="2043" y="1424"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="oRj-ok-FgI">
