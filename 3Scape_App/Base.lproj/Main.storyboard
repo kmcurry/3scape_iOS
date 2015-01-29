@@ -19,10 +19,6 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dy7-iB-NdU">
                                 <rect key="frame" x="260" y="304" width="80" height="65"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="65" id="yXm-Dt-dWX"/>
-                                    <constraint firstAttribute="width" constant="80" id="yYN-Gw-Mxi"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Sign Up">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -31,8 +27,12 @@
                                     <segue destination="cOS-kh-XC7" kind="show" id="hY9-7M-eOY"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bXv-sX-3Ay">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bXv-sX-3Ay">
                                 <rect key="frame" x="260" y="231" width="80" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="NH6-YW-SWK"/>
+                                    <constraint firstAttribute="width" constant="80" id="RJg-kX-HRC"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Log In">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -44,11 +44,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="dy7-iB-NdU" firstAttribute="leading" secondItem="bXv-sX-3Ay" secondAttribute="leading" id="1Op-Wn-Peb"/>
-                            <constraint firstItem="dy7-iB-NdU" firstAttribute="top" secondItem="bXv-sX-3Ay" secondAttribute="bottom" constant="8" symbolic="YES" id="2Ti-ck-SHz"/>
-                            <constraint firstItem="dy7-iB-NdU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Mba-OY-Xfz"/>
-                            <constraint firstItem="dy7-iB-NdU" firstAttribute="trailing" secondItem="bXv-sX-3Ay" secondAttribute="trailing" id="Pcc-xy-Pbe"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dy7-iB-NdU" secondAttribute="bottom" constant="231" id="dNS-sb-lkt"/>
+                            <constraint firstItem="dy7-iB-NdU" firstAttribute="top" secondItem="bXv-sX-3Ay" secondAttribute="bottom" constant="8" symbolic="YES" id="Fco-nI-QWy"/>
+                            <constraint firstItem="dy7-iB-NdU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IoU-mD-i9P"/>
+                            <constraint firstItem="bXv-sX-3Ay" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="167" id="Oou-tC-noY"/>
+                            <constraint firstItem="bXv-sX-3Ay" firstAttribute="trailing" secondItem="dy7-iB-NdU" secondAttribute="trailing" id="ilV-KY-61l"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dy7-iB-NdU" secondAttribute="bottom" constant="231" id="tVW-po-FuY"/>
+                            <constraint firstItem="bXv-sX-3Ay" firstAttribute="leading" secondItem="dy7-iB-NdU" secondAttribute="leading" id="vcY-gH-0I9"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="3Scape" id="0PZ-4f-9g9"/>
