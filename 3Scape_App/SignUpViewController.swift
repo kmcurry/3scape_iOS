@@ -11,9 +11,16 @@ import WebKit
 
 class SignUpViewController: UIViewController {
 
+    @IBOutlet weak var signUp: UIWebView!
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        super.viewDidLoad()
+        let url = NSURL(string: "http://www.3scape.me/login")
+        let request = NSURLRequest(URL: url!)
+        signUp.loadRequest(request)
+        signUp.scalesPageToFit = true
         // Do any additional setup after loading the view.
     }
 
@@ -21,23 +28,7 @@ class SignUpViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    var origInfo : MainDisplay?
     
-    @IBOutlet weak var fNameField: UITextField!
-    
-    @IBOutlet weak var lNameField: UITextField!
-    
-    @IBOutlet weak var emailField: UITextField!
-    
-    @IBOutlet weak var sUpPass: UITextField!
-    
-    
-    @IBOutlet weak var label: UITextView!
-    @IBAction func test(sender: AnyObject) {
-        label.text = fNameField.text + " " + lNameField.text + " " + "\n" + emailField.text + " " + "\n" + sUpPass.text
-        
-    }
-
 
 
     /*

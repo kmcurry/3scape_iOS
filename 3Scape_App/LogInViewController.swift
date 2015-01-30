@@ -10,8 +10,14 @@ import UIKit
 import WebKit
 class LogInViewController: UIViewController {
 
+    @IBOutlet weak var logIn: UIWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        let url = NSURL(string: "http://www.3scape.me/login")
+        let request = NSURLRequest(URL: url!)
+        logIn.loadRequest(request)
+        logIn.scalesPageToFit = true
         // Do any additional setup after loading the view.
     }
 
@@ -19,6 +25,7 @@ class LogInViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     
 
     /*

@@ -12,9 +12,6 @@
 		3A0492E61A72C8A300DF88EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0492E51A72C8A300DF88EB /* Images.xcassets */; };
 		3A0492E91A72C8A300DF88EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A0492E71A72C8A300DF88EB /* LaunchScreen.xib */; };
 		3A0492F51A72C8A300DF88EB /* _Scape_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0492F41A72C8A300DF88EB /* _Scape_AppTests.swift */; };
-		3A2D8DD51A76289100B83C9C /* webViewSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2D8DD41A76289100B83C9C /* webViewSignUp.swift */; };
-		3A367E051A73529300EB85D4 /* webViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A367E041A73529300EB85D4 /* webViewViewController.swift */; };
-		3AD46FD51A73205700C3824E /* MainDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD46FD41A73205700C3824E /* MainDisplay.swift */; };
 		3AD46FD71A73219400C3824E /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD46FD61A73219400C3824E /* LogInViewController.swift */; };
 		3AD46FD91A7321A200C3824E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD46FD81A7321A200C3824E /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
@@ -30,18 +27,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3A0492D91A72C8A300DF88EB /* 3Scape_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3Scape_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A0492D91A72C8A300DF88EB /* 3Scape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3Scape.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A0492DD1A72C8A300DF88EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A0492DE1A72C8A300DF88EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A0492E31A72C8A300DF88EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A0492E51A72C8A300DF88EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3A0492E81A72C8A300DF88EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		3A0492EE1A72C8A300DF88EB /* 3Scape_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3Scape_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A0492EE1A72C8A300DF88EB /* 3ScapeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3ScapeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A0492F31A72C8A300DF88EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A0492F41A72C8A300DF88EB /* _Scape_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Scape_AppTests.swift; sourceTree = "<group>"; };
-		3A2D8DD41A76289100B83C9C /* webViewSignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = webViewSignUp.swift; sourceTree = "<group>"; };
-		3A367E041A73529300EB85D4 /* webViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = webViewViewController.swift; sourceTree = "<group>"; };
-		3AD46FD41A73205700C3824E /* MainDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainDisplay.swift; sourceTree = "<group>"; };
 		3AD46FD61A73219400C3824E /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		3AD46FD81A7321A200C3824E /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,7 +61,7 @@
 		3A0492D01A72C8A300DF88EB = {
 			isa = PBXGroup;
 			children = (
-				3A0492DB1A72C8A300DF88EB /* 3Scape_App */,
+				3A0492DB1A72C8A300DF88EB /* 3Scape */,
 				3A0492F11A72C8A300DF88EB /* 3Scape_AppTests */,
 				3A0492DA1A72C8A300DF88EB /* Products */,
 			);
@@ -76,26 +70,24 @@
 		3A0492DA1A72C8A300DF88EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3A0492D91A72C8A300DF88EB /* 3Scape_App.app */,
-				3A0492EE1A72C8A300DF88EB /* 3Scape_AppTests.xctest */,
+				3A0492D91A72C8A300DF88EB /* 3Scape.app */,
+				3A0492EE1A72C8A300DF88EB /* 3ScapeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3A0492DB1A72C8A300DF88EB /* 3Scape_App */ = {
+		3A0492DB1A72C8A300DF88EB /* 3Scape */ = {
 			isa = PBXGroup;
 			children = (
 				3A0492DE1A72C8A300DF88EB /* AppDelegate.swift */,
 				3A0492E21A72C8A300DF88EB /* Main.storyboard */,
 				3AD46FD61A73219400C3824E /* LogInViewController.swift */,
 				3AD46FD81A7321A200C3824E /* SignUpViewController.swift */,
-				3A367E041A73529300EB85D4 /* webViewViewController.swift */,
-				3A2D8DD41A76289100B83C9C /* webViewSignUp.swift */,
-				3AD46FD41A73205700C3824E /* MainDisplay.swift */,
 				3A0492E51A72C8A300DF88EB /* Images.xcassets */,
 				3A0492E71A72C8A300DF88EB /* LaunchScreen.xib */,
 				3A0492DC1A72C8A300DF88EB /* Supporting Files */,
 			);
+			name = 3Scape;
 			path = 3Scape_App;
 			sourceTree = "<group>";
 		};
@@ -127,9 +119,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3A0492D81A72C8A300DF88EB /* 3Scape_App */ = {
+		3A0492D81A72C8A300DF88EB /* 3Scape */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A0492F81A72C8A300DF88EB /* Build configuration list for PBXNativeTarget "3Scape_App" */;
+			buildConfigurationList = 3A0492F81A72C8A300DF88EB /* Build configuration list for PBXNativeTarget "3Scape" */;
 			buildPhases = (
 				3A0492D51A72C8A300DF88EB /* Sources */,
 				3A0492D61A72C8A300DF88EB /* Frameworks */,
@@ -139,14 +131,14 @@
 			);
 			dependencies = (
 			);
-			name = 3Scape_App;
+			name = 3Scape;
 			productName = 3Scape_App;
-			productReference = 3A0492D91A72C8A300DF88EB /* 3Scape_App.app */;
+			productReference = 3A0492D91A72C8A300DF88EB /* 3Scape.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3A0492ED1A72C8A300DF88EB /* 3Scape_AppTests */ = {
+		3A0492ED1A72C8A300DF88EB /* 3ScapeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A0492FB1A72C8A300DF88EB /* Build configuration list for PBXNativeTarget "3Scape_AppTests" */;
+			buildConfigurationList = 3A0492FB1A72C8A300DF88EB /* Build configuration list for PBXNativeTarget "3ScapeTests" */;
 			buildPhases = (
 				3A0492EA1A72C8A300DF88EB /* Sources */,
 				3A0492EB1A72C8A300DF88EB /* Frameworks */,
@@ -157,9 +149,9 @@
 			dependencies = (
 				3A0492F01A72C8A300DF88EB /* PBXTargetDependency */,
 			);
-			name = 3Scape_AppTests;
+			name = 3ScapeTests;
 			productName = 3Scape_AppTests;
-			productReference = 3A0492EE1A72C8A300DF88EB /* 3Scape_AppTests.xctest */;
+			productReference = 3A0492EE1A72C8A300DF88EB /* 3ScapeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -181,7 +173,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3A0492D41A72C8A300DF88EB /* Build configuration list for PBXProject "3Scape_App" */;
+			buildConfigurationList = 3A0492D41A72C8A300DF88EB /* Build configuration list for PBXProject "3Scape" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -194,8 +186,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3A0492D81A72C8A300DF88EB /* 3Scape_App */,
-				3A0492ED1A72C8A300DF88EB /* 3Scape_AppTests */,
+				3A0492D81A72C8A300DF88EB /* 3Scape */,
+				3A0492ED1A72C8A300DF88EB /* 3ScapeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -226,9 +218,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A0492DF1A72C8A300DF88EB /* AppDelegate.swift in Sources */,
-				3A2D8DD51A76289100B83C9C /* webViewSignUp.swift in Sources */,
-				3AD46FD51A73205700C3824E /* MainDisplay.swift in Sources */,
-				3A367E051A73529300EB85D4 /* webViewViewController.swift in Sources */,
 				3AD46FD91A7321A200C3824E /* SignUpViewController.swift in Sources */,
 				3AD46FD71A73219400C3824E /* LogInViewController.swift in Sources */,
 			);
@@ -247,7 +236,7 @@
 /* Begin PBXTargetDependency section */
 		3A0492F01A72C8A300DF88EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3A0492D81A72C8A300DF88EB /* 3Scape_App */;
+			target = 3A0492D81A72C8A300DF88EB /* 3Scape */;
 			targetProxy = 3A0492EF1A72C8A300DF88EB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -357,7 +346,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = 3Scape_App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = 3Scape;
 			};
 			name = Debug;
 		};
@@ -367,7 +356,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = 3Scape_App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = 3Scape;
 			};
 			name = Release;
 		};
@@ -385,8 +374,8 @@
 				);
 				INFOPLIST_FILE = 3Scape_AppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3Scape_App.app/3Scape_App";
+				PRODUCT_NAME = 3ScapeTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3Scape.app/3Scape";
 			};
 			name = Debug;
 		};
@@ -400,15 +389,15 @@
 				);
 				INFOPLIST_FILE = 3Scape_AppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3Scape_App.app/3Scape_App";
+				PRODUCT_NAME = 3ScapeTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3Scape.app/3Scape";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3A0492D41A72C8A300DF88EB /* Build configuration list for PBXProject "3Scape_App" */ = {
+		3A0492D41A72C8A300DF88EB /* Build configuration list for PBXProject "3Scape" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A0492F61A72C8A300DF88EB /* Debug */,
@@ -417,7 +406,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3A0492F81A72C8A300DF88EB /* Build configuration list for PBXNativeTarget "3Scape_App" */ = {
+		3A0492F81A72C8A300DF88EB /* Build configuration list for PBXNativeTarget "3Scape" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A0492F91A72C8A300DF88EB /* Debug */,
@@ -426,7 +415,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3A0492FB1A72C8A300DF88EB /* Build configuration list for PBXNativeTarget "3Scape_AppTests" */ = {
+		3A0492FB1A72C8A300DF88EB /* Build configuration list for PBXNativeTarget "3ScapeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A0492FC1A72C8A300DF88EB /* Debug */,
